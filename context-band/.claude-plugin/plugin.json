@@ -1,0 +1,7 @@
+{
+  "name": "context-band",
+  "version": "0.1.0",
+  "description": "Live, colour-coded breakdown of context window usage above the prompt",
+  "author": { "name": "James Dickson" },
+  "types": "./types/index.d.ts"
+}

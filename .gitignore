@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Types that Claude Code generates when it loads a mod
+.claude-plugin/types/
+
+# Dependencies and build output
+node_modules/
+dist/
+
+# Logs and local env files
+*.log
+.env
+.env.*
+
+# Editors
+.vscode/
+.idea/

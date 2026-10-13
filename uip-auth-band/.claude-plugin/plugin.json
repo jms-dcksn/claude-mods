@@ -1,0 +1,7 @@
+{
+  "name": "uip-auth-band",
+  "version": "0.1.0",
+  "description": "Shows the UiPath CLI org, tenant, environment and token expiry above the prompt",
+  "author": { "name": "James Dickson" },
+  "types": "./types/index.d.ts"
+}
