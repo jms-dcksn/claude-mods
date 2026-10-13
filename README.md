@@ -1,10 +1,9 @@
 # claude-mods
 
-Three small mods for [Claude Code](https://claude.com/claude-code). Each mod is separate. Install only the mods that you want.
+Two small mods for [Claude Code](https://claude.com/claude-code). Each mod is separate. Install only the mods that you want.
 
 | Mod | What it does |
 |---|---|
-| `first-mod` | Counts the tools that Claude uses. Shows the count next to the spinner. Adds `/tally`. |
 | `context-band` | Shows a coloured bar above the prompt. The bar shows how much of the context window is full. |
 | `uip-auth-band` | Shows your UiPath CLI org, tenant, environment, and token expiry above the prompt. |
 
@@ -21,7 +20,6 @@ claude plugin marketplace add jms-dcksn/claude-mods
 Install each mod with its own command. Run only the lines for the mods that you want:
 
 ```
-claude plugin install first-mod@claude-mods
 claude plugin install context-band@claude-mods
 claude plugin install uip-auth-band@claude-mods
 ```
@@ -31,12 +29,6 @@ claude plugin install uip-auth-band@claude-mods
 Close Claude Code and open it again. The mods load when the session starts.
 
 ## Step 4: Use the mods
-
-### first-mod
-
-1. Ask Claude to do a task that uses tools, for example "list the files here".
-2. Look at the spinner. It shows `tool calls: N`.
-3. Type `/tally` to see the total count.
 
 ### context-band
 

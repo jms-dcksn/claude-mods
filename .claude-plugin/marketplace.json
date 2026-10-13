@@ -3,13 +3,8 @@
   "owner": {
     "name": "James Dickson"
   },
-  "description": "Small Claude Code mods: a tool-call counter, a context usage band, and a UiPath auth band",
+  "description": "Small Claude Code mods: a context usage band and a UiPath auth band",
   "plugins": [
-    {
-      "name": "first-mod",
-      "source": "./first-mod",
-      "description": "Counts Claude's tool calls, shows the count beside the spinner, and adds a /tally command"
-    },
     {
       "name": "context-band",
       "source": "./context-band",
